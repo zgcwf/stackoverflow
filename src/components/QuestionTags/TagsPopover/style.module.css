@@ -1,0 +1,33 @@
+.statistics span:nth-child(2) {
+  padding: 0 20px;
+  color: #ed852d;
+}
+
+.statistics .fire {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+}
+
+.statistics .signal {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+}
+
+p a {
+  font-size: 13px;
+  color: #0074cc;
+}
+
+.watch {
+  margin: 10px 17px 10px 0;
+  width: 165px;
+  height: 40px;
+  background-color: #e2ecf4;
+}
+
+.ignore {
+  width: 165px;
+  height: 40px;
+}

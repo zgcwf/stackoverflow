@@ -1,0 +1,43 @@
+.edit {
+  position: relative;
+  flex: 1;
+}
+
+.edit a {
+  font-size: 12px;
+  color: #0074cc;
+}
+
+.edited::after {
+  content: "show all edits to this post";
+  position: absolute !important;
+  top: 25px;
+  left: 15px;
+  padding: 3px 5px;
+  border: 1px solid #000;
+  border-bottom: none;
+  white-space: nowrap;
+  font-size: 13px;
+  color: #000;
+  display: none;
+}
+.edited:hover::after {
+  display: block;
+}
+
+.editedTime::after {
+  content: "2021-11-28 01:54:58Z";
+  position: absolute !important;
+  top: 25px;
+  left: 100px;
+  padding: 3px 5px;
+  border: 1px solid #000;
+  border-bottom: none;
+  white-space: nowrap;
+  font-size: 13px;
+  color: #000;
+  display: none;
+}
+.editedTime:hover::after {
+  display: block;
+}

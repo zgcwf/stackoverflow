@@ -1,0 +1,32 @@
+.triangleTop {
+  margin: 2px;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #babfc4;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.triangleBottom {
+  margin: 2px 2px 8px 2px;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #babfc4;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.triangleTop:hover,
+.triangleBottom:hover {
+  background-color: #f1f8ff;
+}
+
+.vote {
+  margin: 2px;
+  font-size: 21px;
+  line-height: 1.3;
+  text-align: center;
+  color: #3b4045;
+}

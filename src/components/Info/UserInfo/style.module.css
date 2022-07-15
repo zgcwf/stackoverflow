@@ -1,0 +1,83 @@
+.user {
+  flex: 1;
+  padding: 5px 6px 7px 7px;
+  width: 210px;
+  height: 68px;
+  background-color: #dbeaf7;
+}
+
+.userTime {
+  margin: 1px 0 4px 0;
+  font-size: 12px;
+  color: #6a737c;
+}
+
+.userAvatar {
+  float: left;
+  width: 32px;
+  height: 32px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.userAvatar a {
+  display: block;
+}
+
+.userDetails {
+  float: left;
+  margin-left: 8px;
+  line-height: 1;
+}
+
+.userDetails a {
+  font-size: 13px;
+  color: #0074cc;
+}
+
+.score {
+  font-size: 12px;
+  color: #6a737c;
+  margin-right: 2px;
+}
+
+.badge {
+  position: relative;
+  margin: 0 3px 0 2px;
+}
+
+.goldBadge {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  background-color: #f9ce19;
+  border-radius: 50%;
+}
+
+.silverBadge {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  background-color: #b5b8bc;
+  border-radius: 50%;
+}
+
+.bronzeBadge {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  background-color: #cda785;
+  border-radius: 50%;
+}
+
+.badgeCount {
+  margin: 0 2px 0 10px;
+  font-size: 12px;
+  color: #838c95;
+}

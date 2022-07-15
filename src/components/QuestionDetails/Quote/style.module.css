@@ -1,0 +1,18 @@
+.quote {
+  position: relative;
+  margin: 16px 15px;
+  padding: 12px 12px 12px 15px;
+}
+
+.quote::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  height: 46px;
+  background-color: #c8ccd0;
+  border-radius: 5px;
+}

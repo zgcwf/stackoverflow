@@ -1,0 +1,21 @@
+.list {
+  margin-top: 20px;
+}
+
+.tag {
+  margin: 2px 3px 2px 0;
+  padding: 5px 6px;
+  line-height: 1;
+  color: #39739d;
+  background: #e1ecf4;
+  border-color: #e1ecf4;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.pop {
+  position: relative;
+  width: 420px;
+  min-height: 100px;
+  padding: 17px;
+}

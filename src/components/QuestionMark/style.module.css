@@ -1,0 +1,15 @@
+.mark {
+  display: block;
+  margin: 0 auto;
+  padding: 4px 0;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+}
+
+.markNumber {
+  margin-top: 4px;
+  font-size: 13px;
+  line-height: 1.2;
+  color: #babfc4;
+}
